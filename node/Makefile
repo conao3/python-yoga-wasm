@@ -2,5 +2,8 @@ all:
 
 
 .PHONY: init
-init:
+init: node_modules
+
+
+node_modules:
 	pnpm install
