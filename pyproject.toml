@@ -11,7 +11,7 @@ yoga-wasm = "yoga_wasm.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-wasmtime = "^9.0.0"
+wasmtime = "^50.0.1"
 
 [build-system]
 requires = ["poetry-core"]
